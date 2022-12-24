@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "singlish-telegram-bot"
+version = "0.1.0"
+description = "A Telegram bot to translate recognized Singlish into American English."
+authors = ["Jaden Peterson <jadenpeterson150@gmail.com>"]
+license = "MIT"
+packages = [{include = "singlish_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^13.15"
+beautifulsoup4 = "^4.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
